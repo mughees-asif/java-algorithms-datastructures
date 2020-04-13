@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         int[] arr = { 20, 35, -15, 7, 55, 1, -22 };
 
-        mergeSort(arr, 0, args.length);
+        mergeSort(arr, 0, arr.length);
 
         for (int value : arr) {
             System.out.print(value + " ");
@@ -30,7 +30,6 @@ public class Main {
         if(input[mid - 1] <= input[mid]){
             return;
         }
-
         int i = start;
         int j = mid;
         int tempIndex = 0;
