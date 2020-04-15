@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         String[] stringsArray = { "bcdef", "dbaqc", "abcde", "omadd", "bbbbb"};
 
-        // do radix sort
+        // Radix sort
         radixSort(stringsArray, 26, 5);
 
         for (int i = 0; i < stringsArray.length; i++) {
