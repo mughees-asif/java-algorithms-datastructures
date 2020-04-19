@@ -46,5 +46,9 @@ public class Main {
         for (Employee employee : employeeArray)
             System.out.println(employee);
         System.out.println("=======================");
+
+        // check if the list contains an item
+        System.out.println(employeeList.contains(new Employee("Mary", "Smith", 22)));
+        System.out.println("=======================");
     }
 }
