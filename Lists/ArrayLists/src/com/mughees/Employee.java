@@ -21,7 +21,6 @@ public class Employee {
     }
 
     public String getLastName() {
-    public String getLastName() {
         return lastName;
     }
 
@@ -35,5 +34,14 @@ public class Employee {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", id=" + id +
+                '}';
     }
 }
