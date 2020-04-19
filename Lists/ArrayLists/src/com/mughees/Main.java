@@ -1,7 +1,5 @@
 package com.mughees;
 
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -49,6 +47,15 @@ public class Main {
 
         // check if the list contains an item
         System.out.println(employeeList.contains(new Employee("Mary", "Smith", 22)));
+        System.out.println("=======================");
+
+        // check index
+        System.out.println(employeeList.indexOf(new Employee("Mary", "Smith", 22)));
+        System.out.println("=======================");
+
+        // remove an item
+        employeeList.remove(2);
+        employeeList.forEach(System.out::println);
         System.out.println("=======================");
     }
 }
