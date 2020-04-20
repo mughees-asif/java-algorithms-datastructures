@@ -9,6 +9,12 @@ public class Main {
         Employee marySmith = new Employee("Mary", "Smith", 22);
         Employee mikeWilson = new Employee("Mike", "Wilson", 3245);
 
+        EmployeeLinkedList list = new EmployeeLinkedList();
+        list.addToFront(janeJones);
+        list.addToFront(johnDoe);
+        list.addToFront(marySmith);
+        list.addToFront(mikeWilson);
 
+        list.printList();
     }
 }
