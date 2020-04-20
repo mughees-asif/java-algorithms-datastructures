@@ -15,6 +15,14 @@ public class Main {
         list.addToFront(marySmith);
         list.addToFront(mikeWilson);
 
+        System.out.println("Is the list empty: " + list.isEmpty() + "\n");
+
+        System.out.println("The size of the list is: " + list.getSize() + "\n");
+
+        list.printList();
+
+        list.removeFromFront();
+        System.out.println("The size of the list after removing head node: " + list.getSize() + "\n");
         list.printList();
     }
 }
