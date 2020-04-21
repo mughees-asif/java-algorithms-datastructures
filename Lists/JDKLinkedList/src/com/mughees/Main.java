@@ -26,7 +26,7 @@ public class Main {
         list.add(billEnd);
         printMethod(list);
 
-        // removeFirst = removes an item from the front of the list
+        // remove / removeFirst = removes an item from the front of the list
         list.removeFirst();
         printMethod(list);
 
