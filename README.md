@@ -2,7 +2,7 @@
 
 ## 1. Algorithms
 
-### 1.1 [Sorting](https://github.com/mughees-asif/java-algorithms-datastructures/tree/master/SortAlgorithms)
+### 1.1. [Sorting](https://github.com/mughees-asif/java-algorithms-datastructures/tree/master/SortAlgorithms)
 
 Note: Click :writing_hand: to navigate to the implementation.
 
@@ -22,8 +22,11 @@ Note: Click :writing_hand: to navigate to the implementation.
 ## 2. Lists
 |  Name  |  Code  |
 | ------------- | ------------- |
-|  [Stdin and Stdout I](https://www.hackerrank.com/challenges/java-stdin-and-stdout-1/problem) | [Solved](https://github.com/mughees-asif/hackerrank-solved-challenges/blob/master/java/ScannerInOut/src/com/mughees/Main.java)  |  :green_book: Easy  |  Scanner class  |
-
+|  ArrayLists | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Lists/ArrayLists/src/com/mughees/Main.java)  |
+|  Vectors | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Lists/Vectors/src/com/mughees/Main.java)  |
+|  SinglyLinkedLists | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Lists/SinglyLinkedLists/src/com/mughees/Main.java)  |
+|  DoublyLinkedLists | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Lists/DoublyLinkedLists/src/com/mughees/Main.java)  |
+|  JDKLinkedList | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Lists/JDKLinkedList/src/com/mughees/Main.java)  |
 
 
 
