@@ -23,5 +23,16 @@ public class Main {
         list.addToEnd(billEnd);
         list.printList();
         System.out.println(list.getSize());
+        System.out.println("=============================");
+
+        list.removeFromFront();
+        list.printList();
+        System.out.println(list.getSize());
+        System.out.println("=============================");
+
+        list.removeFromEnd();
+        list.printList();
+        System.out.println(list.getSize());
+        System.out.println("=============================");
     }
 }
