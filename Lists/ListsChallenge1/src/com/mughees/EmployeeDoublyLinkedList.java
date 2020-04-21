@@ -41,7 +41,7 @@ public class EmployeeDoublyLinkedList {
 
         // find the existing employee
         EmployeeNode current = head;
-        while (current != null && current.getEmployee().equals(existingEmployee)) {
+        while (current != null && !current.getEmployee().equals(existingEmployee)) {
             current = current.getNext();
         }
 
@@ -59,7 +59,8 @@ public class EmployeeDoublyLinkedList {
         } else {
             newNode.getPrevious().setNext(newNode);
         }
-        return false;
+        size++;
+        return true;
     }
 
     public EmployeeNode removeFromFront() {
@@ -110,9 +111,9 @@ public class EmployeeDoublyLinkedList {
 
     public void printList() {
         EmployeeNode current = head;
-        System.out.print("HEAD -> ");
+        System.out.println("HEAD -> ");
         while (current != null) {
-            System.out.print(current);
+            System.out.println(current);
             System.out.print(" <=> ");
             current = current.getNext();
         }
