@@ -27,6 +27,7 @@ Note: Click :writing_hand: to navigate to the implementation.
 |  SinglyLinkedLists | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Lists/SinglyLinkedLists/src/com/mughees/Main.java)  |
 |  DoublyLinkedLists | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Lists/DoublyLinkedLists/src/com/mughees/Main.java)  |
 |  JDKLinkedList | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Lists/JDKLinkedList/src/com/mughees/Main.java)  |
+|  Sorted SinglyLinkedList (integers) | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Lists/ListChallenge2/src/com/mughees/Main.java)  |
 
 
 
