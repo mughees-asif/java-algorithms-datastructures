@@ -1,5 +1,7 @@
 package com.mughees;
 
+import java.util.EmptyStackException;
+
 public class ArrayStack {
 
     private Employee[] stack;
@@ -18,5 +20,19 @@ public class ArrayStack {
             stack = newArray;
         }
         stack[top++] = employee;
+    }
+
+    public Employee pop() {
+        if (isEmpty()) {
+            throw new EmptyStackException();
+        }
+
+        Employee employee = stack[--top];
+        stack[top] = null;
+        return employee;
+    }
+
+    public boolean isEmpty() {
+        return top == 0;
     }
 }
