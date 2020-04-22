@@ -29,5 +29,12 @@ Note: Click :writing_hand: to navigate to the implementation.
 |  JDKLinkedList | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Lists/JDKLinkedList/src/com/mughees/Main.java)  |
 |  Sorted SinglyLinkedList (integers) | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Lists/ListChallenge2/src/com/mughees/Main.java)  |
 
+## 3. Stacks
+|  Name  |  Code  |
+| ------------- | ------------- |
+|  Stacks - Arrays | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Stacks/StacksArrays/src/com/mughees/Main.java)  |
+|  Stacks - LinkedList | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Stacks/StacksLinkedList/src/com/mughees/Main.java)  |
+
+
 
 
