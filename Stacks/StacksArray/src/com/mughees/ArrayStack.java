@@ -26,13 +26,30 @@ public class ArrayStack {
         if (isEmpty()) {
             throw new EmptyStackException();
         }
-
         Employee employee = stack[--top];
         stack[top] = null;
         return employee;
     }
 
+    public Employee peek() {
+        if (isEmpty()) {
+            throw new EmptyStackException();
+        }
+        return stack[top - 1];
+    }
+
+    public int size() {
+        return top;
+    }
+
     public boolean isEmpty() {
         return top == 0;
+    }
+
+    // print stack from top to bottom
+    public void printStack() {
+        for (int i = top - 1; i >= 0; i--) {
+            System.out.println(stack[i]);
+        }
     }
 }
