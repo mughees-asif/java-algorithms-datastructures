@@ -10,7 +10,18 @@ public class Main {
         Employee mikeWilson = new Employee("Mike", "Wilson", 3245);
         Employee billEnd = new Employee("Bill", "End", 78);
 
+        LinkedStack stack = new LinkedStack();
+        stack.push(janeJones);
+        stack.push(johnDoe);
+        stack.push(marySmith);
+        stack.push(mikeWilson);
+        stack.push(billEnd);
 
-
+        stack.printStack();
+        System.out.println("==================");
+        System.out.println(stack.peek());
+        System.out.println("==================");
+        System.out.println("Popped: " + stack.pop());
+        System.out.println(stack.peek());
     }
 }
