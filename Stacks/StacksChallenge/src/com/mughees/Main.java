@@ -1,5 +1,7 @@
 package com.mughees;
 
+import java.util.Stack;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -16,6 +18,16 @@ public class Main {
     }
 
     public static boolean checkForPalindrome(String string) {
-        return false;
+
+        Stack stack = new Stack();
+        string = string.toLowerCase().replaceAll("\\W", "");
+        for(int i = 0; i < string.length(); i++) {
+            stack.push(string.charAt(i));
+        }
+        String reverseString = "";
+        while(!stack.isEmpty()) {
+            reverseString = reverseString + stack.pop();
+        }
+        return string.equals(reverseString);
     }
 }
