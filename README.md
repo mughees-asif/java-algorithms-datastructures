@@ -40,6 +40,7 @@ Note: Click :writing_hand: to navigate to the implementation.
 |  Name  |  Code  |
 | ------------- | ------------- |
 |  Queues - Arrays | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Queues/QueuesArrays/src/com/mughees/Main.java)  |
+|  Circular Queues | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Queues/UpdatedQueuesArrays/src/com/mughees/Main.java)  |
 
 
 

@@ -9,13 +9,23 @@ public class Main {
         Employee mikeWilson = new Employee("Mike", "Wilson", 3245);
         Employee billEnd = new Employee("Bill", "End", 78);
 
-        ArrayQueue queue = new ArrayQueue(10);
+        ArrayQueue queue = new ArrayQueue(5);
+        queue.add(janeJones);
+        queue.add(johnDoe);
+        queue.remove();
+        queue.add(marySmith);
+        queue.remove();
+        queue.add(mikeWilson);
+        queue.remove();
+        queue.add(billEnd);
+        queue.remove();
+        queue.add(janeJones);
+
         queue.add(janeJones);
         queue.add(johnDoe);
         queue.add(marySmith);
         queue.add(mikeWilson);
         queue.add(billEnd);
-
         queue.printQueue();
         System.out.println("========================");
 
