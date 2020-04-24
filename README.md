@@ -1,10 +1,10 @@
 # Java Algorithms and Data Structures
 
+**Note**: Click :writing_hand: to navigate to the implementation.
+
 ## 1. Algorithms
 
 ### 1.1. [Sorting](https://github.com/mughees-asif/java-algorithms-datastructures/tree/master/SortAlgorithms)
-
-Note: Click :writing_hand: to navigate to the implementation.
 
 |  Name  |  Code  |
 | ------------- | ------------- |
