@@ -36,6 +36,12 @@ Note: Click :writing_hand: to navigate to the implementation.
 |  Stacks - LinkedList | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Stacks/StacksLinkedList/src/com/mughees/Main.java)  |
 |  Stacks - Palindrome check | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Stacks/StacksChallenge/src/com/mughees/Main.java)  |
 
+## 4. Queues
+|  Name  |  Code  |
+| ------------- | ------------- |
+|  Queues - Arrays | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Queues/QueuesArrays/src/com/mughees/Main.java)  |
+
+
 
 
 
