@@ -19,7 +19,7 @@ Note: Click :writing_hand: to navigate to the implementation.
 |  BubbleSort | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/SortAlgorithms/BubbleSort/src/com/mughees/Main.java)  |
 |  ShellSort | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/SortAlgorithms/ShellSort/src/com/mughees/Main.java)  |
 
-## 2. Lists
+## 2. [Lists](https://github.com/mughees-asif/java-algorithms-datastructures/tree/master/Lists)
 |  Name  |  Code  |
 | ------------- | ------------- |
 |  ArrayLists | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Lists/ArrayLists/src/com/mughees/Main.java)  |
@@ -29,14 +29,14 @@ Note: Click :writing_hand: to navigate to the implementation.
 |  JDKLinkedList | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Lists/JDKLinkedList/src/com/mughees/Main.java)  |
 |  Sorted SinglyLinkedList (integers) | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Lists/ListChallenge2/src/com/mughees/Main.java)  |
 
-## 3. Stacks
+## 3. [Stacks](https://github.com/mughees-asif/java-algorithms-datastructures/tree/master/Stacks)
 |  Name  |  Code  |
 | ------------- | ------------- |
 |  Stacks - Arrays | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Stacks/StacksArrays/src/com/mughees/Main.java)  |
 |  Stacks - LinkedList | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Stacks/StacksLinkedList/src/com/mughees/Main.java)  |
 |  Stacks - Palindrome check | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Stacks/StacksChallenge/src/com/mughees/Main.java)  |
 
-## 4. Queues
+## 4. [Queues](https://github.com/mughees-asif/java-algorithms-datastructures/tree/master/Queues)
 |  Name  |  Code  |
 | ------------- | ------------- |
 |  Queues - Arrays | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Queues/QueuesArrays/src/com/mughees/Main.java)  |
