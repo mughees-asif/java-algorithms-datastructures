@@ -24,23 +24,23 @@ Note: Click :writing_hand: to navigate to the implementation.
 | ------------- | ------------- |
 |  ArrayLists | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Lists/ArrayLists/src/com/mughees/Main.java)  |
 |  Vectors | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Lists/Vectors/src/com/mughees/Main.java)  |
-|  SinglyLinkedLists | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Lists/SinglyLinkedLists/src/com/mughees/Main.java)  |
-|  DoublyLinkedLists | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Lists/DoublyLinkedLists/src/com/mughees/Main.java)  |
+|  SinglyLinkedLists | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Lists/SinglyLinkedLists/src/com/mughees/EmployeeLinkedList.java)  |
+|  DoublyLinkedLists | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Lists/DoublyLinkedLists/src/com/mughees/EmployeeDoublyLinkedList.java)  |
 |  JDKLinkedList | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Lists/JDKLinkedList/src/com/mughees/Main.java)  |
 |  Sorted SinglyLinkedList (integers) | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Lists/ListChallenge2/src/com/mughees/Main.java)  |
 
 ## 3. [Stacks](https://github.com/mughees-asif/java-algorithms-datastructures/tree/master/Stacks)
 |  Name  |  Code  |
 | ------------- | ------------- |
-|  Stacks - Arrays | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Stacks/StacksArrays/src/com/mughees/Main.java)  |
-|  Stacks - LinkedList | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Stacks/StacksLinkedList/src/com/mughees/Main.java)  |
+|  Stacks - Arrays | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Stacks/StacksArrays/src/com/mughees/ArrayStack.java)  |
+|  Stacks - LinkedList | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Stacks/StacksLinkedList/src/com/mughees/LinkedStack.java)  |
 |  Stacks - Palindrome check | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Stacks/StacksChallenge/src/com/mughees/Main.java)  |
 
 ## 4. [Queues](https://github.com/mughees-asif/java-algorithms-datastructures/tree/master/Queues)
 |  Name  |  Code  |
 | ------------- | ------------- |
-|  Queues - Arrays | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Queues/QueuesArrays/src/com/mughees/Main.java)  |
-|  Circular Queues | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Queues/UpdatedQueuesArrays/src/com/mughees/Main.java)  |
+|  Queues - Arrays | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Queues/QueuesArrays/src/com/mughees/ArrayQueue.java)  |
+|  Circular Queues | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Queues/UpdatedQueuesArrays/src/com/mughees/ArrayQueue.java)  |
 
 
 
