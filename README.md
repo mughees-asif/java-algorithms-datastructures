@@ -26,7 +26,7 @@ Note: Click :writing_hand: to navigate to the implementation.
 |  Vectors | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Lists/Vectors/src/com/mughees/Main.java)  |
 |  SinglyLinkedLists | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Lists/SinglyLinkedLists/src/com/mughees/EmployeeLinkedList.java)  |
 |  DoublyLinkedLists | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Lists/DoublyLinkedLists/src/com/mughees/EmployeeDoublyLinkedList.java)  |
-|  JDKLinkedList | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Lists/JDKLinkedList/src/com/mughees/Main.java)  |
+|  LinkedList - JDK | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Lists/JDKLinkedList/src/com/mughees/Main.java)  |
 |  Sorted SinglyLinkedList (integers) | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Lists/ListChallenge2/src/com/mughees/Main.java)  |
 
 ## 3. [Stacks](https://github.com/mughees-asif/java-algorithms-datastructures/tree/master/Stacks)
@@ -41,6 +41,8 @@ Note: Click :writing_hand: to navigate to the implementation.
 | ------------- | ------------- |
 |  Queues - Arrays | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Queues/QueuesArrays/src/com/mughees/ArrayQueue.java)  |
 |  Circular Queues | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Queues/UpdatedQueuesArrays/src/com/mughees/ArrayQueue.java)  |
+|  Queues - JDK | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Queues/JDKQueues/src/com/mughees/Main.java)  |
+|  Queues - Palindrome check | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Queues/QueuesChallenge/src/com/mughees/Main.java)  |
 
 
 
