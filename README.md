@@ -47,9 +47,5 @@
 ## 5. [Hash Tables](https://github.com/mughees-asif/java-algorithms-datastructures/tree/master/Queues)
 |  Name  |  Code  |
 | ------------- | ------------- |
-|  Hash Tables - Arrays | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/HashTables/HashTablesArrays/src/com/mughees/Main.java)  |
-
-
-
-
+|  Hash Tables - Arrays | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/HashTables/HashTablesArrays/src/com/mughees/SimpleHashtable.java)  |
 
