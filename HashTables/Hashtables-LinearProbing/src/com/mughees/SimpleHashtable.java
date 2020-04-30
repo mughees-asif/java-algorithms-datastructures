@@ -2,10 +2,10 @@ package com.mughees;
 
 public class SimpleHashtable {
 
-    private Employee[] hashtable;
+    private StoredEmployee[] hashtable;
 
     public SimpleHashtable() {
-        hashtable = new Employee[10];
+        hashtable = new StoredEmployee[10];
     }
 
     public void put(String key, Employee employee) {
@@ -19,20 +19,23 @@ public class SimpleHashtable {
                 hashKey++;
             }
             // each loop iteration the next probe position is set & includes wrapping
-            while(occupied(hashKey) && hashKey != stopIndex) {
+            while (occupied(hashKey) && hashKey != stopIndex) {
                 hashKey = (hashKey + 1) % hashtable.length;
             }
         }
         if (occupied(hashKey)) {
             System.out.println("An employee already exists at position: " + hashKey);
         } else {
-            hashtable[hashKey] = employee;
+            hashtable[hashKey] = new StoredEmployee(key, employee);
         }
     }
 
     public Employee get(String key) {
-        int hashKey = hashKey(key);
-        return hashtable[hashKey];
+        int hashKey = findKey(key);
+        if(hashKey == -1) {
+            return null;
+        }
+        return hashtable[hashKey].employee;
     }
 
     private int hashKey(String key) {
@@ -44,8 +47,31 @@ public class SimpleHashtable {
         return hashtable[index] != null;
     }
 
+    private int findKey(String key) {
+        int hashKey = hashKey(key);
+        if (hashtable[hashKey] != null &&
+                hashtable[hashKey].key.equals(key)) {
+            return hashKey;
+        }
+        int stopIndex = hashKey;
+        if (hashKey == hashtable.length - 1) {
+            hashKey = 0;
+        } else {
+            hashKey++;
+        }
+        while (hashKey != stopIndex && hashtable[hashKey] != null &&
+                !hashtable[hashKey].key.equals(key)) {
+            hashKey = (hashKey + 1) % hashtable.length;
+        }
+        if (stopIndex == hashKey) {
+            return -1;
+        } else {
+            return hashKey;
+        }
+    }
+
     public void printHashtable() {
-        for (Employee employee : hashtable) {
+        for (StoredEmployee employee : hashtable) {
             System.out.println(employee);
         }
     }
