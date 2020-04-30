@@ -38,6 +38,16 @@ public class SimpleHashtable {
         return hashtable[hashKey].employee;
     }
 
+    public Employee remove (String key) {
+        int hashkey = findKey(key);
+        if(hashkey == -1) {
+            return null;
+        }
+        Employee employee = hashtable[hashkey].employee;
+        hashtable[hashkey] = null;
+        return employee;
+    }
+
     private int hashKey(String key) {
         return key.length() % hashtable.length;
     }
@@ -63,16 +73,21 @@ public class SimpleHashtable {
                 !hashtable[hashKey].key.equals(key)) {
             hashKey = (hashKey + 1) % hashtable.length;
         }
-        if (stopIndex == hashKey) {
-            return -1;
-        } else {
+        // handles null pointer exceptions
+        if (hashtable[hashKey] != null && hashtable[hashKey].key.equals(key))  {
             return hashKey;
+        } else {
+            return -1;
         }
     }
 
     public void printHashtable() {
-        for (StoredEmployee employee : hashtable) {
-            System.out.println(employee);
+        for (int i = 0; i < hashtable.length; i++) {
+            if (hashtable[i] == null) {
+                System.out.println("empty");
+            } else {
+                System.out.println("Position " + i + ": " + hashtable[i].employee);
+            }
         }
     }
 }

@@ -15,10 +15,14 @@ public class Main {
         ht.put("Doe", johnDoe);
         ht.put("Wilson", mikeWilson);
         ht.put("Smith", marySmith);
-
         ht.printHashtable();
-
+        System.out.println("===================================");
         System.out.println("Retrieve key Wilson: " + ht.get("Wilson"));
-        System.out.println("Retrieve key Wilson: " + ht.get("Smith"));
+        System.out.println("Retrieve key Smith: " + ht.get("Smith"));
+        System.out.println("===================================");
+        ht.remove("Wilson");
+        ht.remove("Jones");
+        ht.printHashtable();
+        System.out.println("===================================");
     }
 }
