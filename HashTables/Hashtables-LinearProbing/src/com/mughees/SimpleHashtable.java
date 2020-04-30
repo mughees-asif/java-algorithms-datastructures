@@ -8,10 +8,22 @@ public class SimpleHashtable {
         hashtable = new Employee[10];
     }
 
-    // simple hash table does not take into account collisions
     public void put(String key, Employee employee) {
         int hashKey = hashKey(key);
-        if (hashtable[hashKey] != null) {
+        if (occupied(hashKey)) {
+            int stopIndex = hashKey;
+            // creating the first value for the probe
+            if (hashKey == hashtable.length - 1) {
+                hashKey = 0;
+            } else {
+                hashKey++;
+            }
+            // each loop iteration the next probe position is set & includes wrapping
+            while(occupied(hashKey) && hashKey != stopIndex) {
+                hashKey = (hashKey + 1) % hashtable.length;
+            }
+        }
+        if (occupied(hashKey)) {
             System.out.println("An employee already exists at position: " + hashKey);
         } else {
             hashtable[hashKey] = employee;
@@ -25,6 +37,11 @@ public class SimpleHashtable {
 
     private int hashKey(String key) {
         return key.length() % hashtable.length;
+    }
+
+    // check to see if space already occupied
+    private boolean occupied(int index) {
+        return hashtable[index] != null;
     }
 
     public void printHashtable() {
