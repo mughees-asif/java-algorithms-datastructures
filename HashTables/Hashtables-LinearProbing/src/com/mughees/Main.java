@@ -24,5 +24,7 @@ public class Main {
         ht.remove("Jones");
         ht.printHashtable();
         System.out.println("===================================");
+        System.out.println("Retrieve key Smith: " + ht.get("Smith")); // need rehashing to find mary
+        System.out.println("===================================");
     }
 }

@@ -1,5 +1,7 @@
 package com.mughees;
 
+import java.awt.*;
+
 public class SimpleHashtable {
 
     private StoredEmployee[] hashtable;
@@ -44,7 +46,17 @@ public class SimpleHashtable {
             return null;
         }
         Employee employee = hashtable[hashkey].employee;
-        hashtable[hashkey] = null;
+
+        // hashtable[hashkey] = null; --> bug: returns null
+
+        // solution: rehashing
+        StoredEmployee[] oldHashtable = hashtable;
+        hashtable = new StoredEmployee[oldHashtable.length];
+        for (int i = 0; i < oldHashtable.length; i++) {
+            if (oldHashtable[i] != null) {
+                put(oldHashtable[i].key, oldHashtable[i].employee);
+            }
+        }
         return employee;
     }
 
