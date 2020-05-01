@@ -6,12 +6,18 @@
 
 ### 1.1. [Sorting](https://github.com/mughees-asif/java-algorithms-datastructures/tree/master/SortAlgorithms)
 
-|  Name  |  Code  |  Time complexity  | 
-| ------------- | ------------- | ------------- |
-|  BubbleSort | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/SortAlgorithms/BubbleSort/src/com/mughees/Main.java)  |  O(n<sup>2</sup>)   |
+<p align="center">
+    <a href="https://github.com/mughees-asif/java-algorithms-datastructures#11-sorting">
+        <img src="/sorting.png">
+    </a>
+  </p>
+
+|  Name  |  Code  |   
+| ------------- | ------------- | 
+|  BubbleSort | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/SortAlgorithms/BubbleSort/src/com/mughees/Main.java)  | 
 |  CountingSort | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/SortAlgorithms/CountingSort/src/com/mughees/Main.java)  |
 |  InsertionSort | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/SortAlgorithms/InsertionSort/src/com/mughees/Main.java)  |
-|  MergeSort* NlogN | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/SortAlgorithms/MergeSort/src/com/mughees/Main.java)  |
+|  MergeSort | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/SortAlgorithms/MergeSort/src/com/mughees/Main.java)  | 
 |  QuickSort | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/SortAlgorithms/QuickSort/src/com/mughees/Main.java)  |
 |  RadixSort | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/SortAlgorithms/RadixSort/src/com/mughees/Main.java)  |
 |  Recursion | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/SortAlgorithms/Recursion/src/com/mughees/Main.java)  |
