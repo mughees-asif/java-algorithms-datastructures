@@ -8,7 +8,7 @@
 
 |  Name  |  Code  |  Time complexity  | 
 | ------------- | ------------- | ------------- |
-|  BubbleSort | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/SortAlgorithms/BubbleSort/src/com/mughees/Main.java)  |  [eq1](https://latex.codecogs.com/gif.latex?O(n^2))   |
+|  BubbleSort | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/SortAlgorithms/BubbleSort/src/com/mughees/Main.java)  |  ![eq1](https://latex.codecogs.com/gif.latex?O(n^2))   |
 |  CountingSort | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/SortAlgorithms/CountingSort/src/com/mughees/Main.java)  |
 |  InsertionSort | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/SortAlgorithms/InsertionSort/src/com/mughees/Main.java)  |
 |  MergeSort* NlogN | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/SortAlgorithms/MergeSort/src/com/mughees/Main.java)  |
