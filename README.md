@@ -44,7 +44,7 @@
 |  Queues - JDK | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Queues/JDKQueues/src/com/mughees/Main.java)  |
 |  Queues - Palindrome check | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Queues/QueuesChallenge/src/com/mughees/Main.java)  |
 
-## 5. [Hash Tables](https://github.com/mughees-asif/java-algorithms-datastructures/tree/master/Queues)
+## 5. [Hashtables](https://github.com/mughees-asif/java-algorithms-datastructures/tree/master/HashTables)
 |  Name  |  Code  |
 | ------------- | ------------- |
 |  Hash Tables - Arrays | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/HashTables/HashTablesArrays/src/com/mughees/SimpleHashtable.java)  |
