@@ -17,7 +17,7 @@
 |  BubbleSort | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/SortAlgorithms/BubbleSort/src/com/mughees/Main.java)  | 
 |  CountingSort | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/SortAlgorithms/CountingSort/src/com/mughees/Main.java)  |
 |  InsertionSort | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/SortAlgorithms/InsertionSort/src/com/mughees/Main.java)  |
-|  MergeSort | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/SortAlgorithms/MergeSort/src/com/mughees/Main.java)  | 
+|  MergeSort | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/SortAlgorithms/MergeSort/src/com/mughees/MergeSort.java)  | 
 |  QuickSort | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/SortAlgorithms/QuickSort/src/com/mughees/Main.java)  |
 |  RadixSort | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/SortAlgorithms/RadixSort/src/com/mughees/Main.java)  |
 |  Recursion | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/SortAlgorithms/Recursion/src/com/mughees/Main.java)  |
