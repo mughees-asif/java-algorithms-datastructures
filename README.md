@@ -49,4 +49,4 @@
 | ------------- | ------------- |
 |  Hash Tables - Arrays | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/HashTables/HashTablesArrays/src/com/mughees/SimpleHashtable.java)  |
 |  Hash Tables - Linear Probing | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/HashTables/HashTables-LinearProbing/src/com/mughees/SimpleHashtable.java)  |
-|  Hash Tables - Chaining | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/HashTables/HashTables-Chaining/src/com/mughees/SimpleHashtable.java)  |
+|  Hash Tables - Chaining | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/HashTables/HashTables-Chaining/src/com/mughees/ChainedHashtable.java)  |
