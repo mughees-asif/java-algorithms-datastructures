@@ -24,6 +24,7 @@
 |  SelectionSort | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/SortAlgorithms/SelectionSort/src/com/mughees/Main.java)  |
 |  BubbleSort | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/SortAlgorithms/BubbleSort/src/com/mughees/Main.java)  |
 |  ShellSort | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/SortAlgorithms/ShellSort/src/com/mughees/Main.java)  |
+|  BucketSort (Uses hashing) | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/SortAlgorithms/BucketSort/src/com/mughees/Main.java)  |
 
 ## 2. [Lists](https://github.com/mughees-asif/java-algorithms-datastructures/tree/master/Lists)
 |  Name  |  Code  |
