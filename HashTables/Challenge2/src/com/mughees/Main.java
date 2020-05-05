@@ -1,4 +1,4 @@
-package academy.learnprogramming.hashtableschallenge;
+package com.mughees;
 
 import java.util.LinkedList;
 
