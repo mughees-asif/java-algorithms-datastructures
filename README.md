@@ -4,13 +4,13 @@
 
 ## 1. Algorithms
 
-### 1.1. Sorting
-
 <p align="center">
-    <a href="https://github.com/mughees-asif/java-algorithms-datastructures#11-sorting">
-        <img src="/sorting.png">
-    </a>
-  </p>
+  <a href="https://github.com/mughees-asif/java-algorithms-datastructures#11-sorting">
+     <img src="/sorting.png">
+  </a>
+</p>
+
+### 1.1. Sorting
 
 |  Name  |  Code  |   
 | ------------- | ------------- | 
