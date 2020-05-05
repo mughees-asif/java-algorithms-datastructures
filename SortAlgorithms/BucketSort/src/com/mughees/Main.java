@@ -2,6 +2,7 @@ package com.mughees;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Main {
@@ -17,7 +18,8 @@ public class Main {
     public static void bucketSort(int[] input) {
         List<Integer>[] buckets = new List[10];
         for(int i = 0; i < buckets.length; i++) {
-            buckets[i] = new ArrayList<Integer>();
+            // using linked lists as buckets, can use other lists
+            buckets[i] = new LinkedList<>();
         }
 
         for (int value : input) {
