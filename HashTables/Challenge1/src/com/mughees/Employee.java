@@ -1,4 +1,4 @@
-package academy.learnprogramming.hashtableschallenge;
+package com.mughees;
 
 public class Employee {
 
@@ -64,6 +64,4 @@ public class Employee {
                 ", id=" + id +
                 '}';
     }
-
-
 }
