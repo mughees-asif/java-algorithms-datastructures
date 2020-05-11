@@ -30,7 +30,8 @@
 
 |  Name  |  Code  |   
 | ------------- | ------------- | 
-|  LinearSearch | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/SearchAlgorithms/LinearSearch/src/com/mughees/Main.java)  | 
+|  LinearSearch | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/SearchAlgorithms/LinearSearch/src/com/mughees/Main.java)  |
+|  BinarySearch | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/SearchAlgorithms/LinearSearch/src/com/mughees/Main.java)  |  
 
 ## 2. Lists
 |  Name  |  Code  |
