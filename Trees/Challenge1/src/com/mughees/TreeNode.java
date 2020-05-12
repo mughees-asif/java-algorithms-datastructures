@@ -80,6 +80,17 @@ public class TreeNode {
         }
     }
 
+    public void preorderTravesal() {
+        // allows to visit the node first as opposed to traverseInOrder
+        System.out.print(data + ", ");
+        if (leftChild != null) {
+            leftChild.preorderTravesal();
+        }
+        if (rightChild != null) {
+            rightChild.preorderTravesal();
+        }
+    }
+
 
     public int getData() {
         return data;
