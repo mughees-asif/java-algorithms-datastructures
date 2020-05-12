@@ -69,4 +69,4 @@
 ## 6. Trees
 |  Name  |  Code  |
 | ------------- | ------------- |
-|  BinarySearchTree | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Trees/BinarySearchTree/src/com/mughees/TreeNode.java)  |
+|  BinarySearchTree (insertion, in-order traversal) | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Trees/BinarySearchTree/src/com/mughees/TreeNode.java)  |
