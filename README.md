@@ -70,4 +70,4 @@
 |  Name  |  Code  |
 | ------------- | ------------- |
 |  BinarySearchTree (insertion, in-order traversal, deletion) | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Trees/BinarySearchTree/src/com/mughees/Tree.java)  |
-|  BinarySearchTree (post-order traversal) | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Trees/BinarySearchTree/src/com/mughees/Tree.java)  |
+|  BinarySearchTree (per-order traversal) | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Trees/Challenge1/src/com/mughees/Tree.java)  |
