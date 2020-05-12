@@ -1,4 +1,4 @@
-package academy.learnprogramming.binarysearchtrees;
+package com.mughees;
 
 public class Main {
 
