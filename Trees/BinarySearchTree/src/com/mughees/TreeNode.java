@@ -1,4 +1,4 @@
-package com.mughees;
+package academy.learnprogramming.binarysearchtrees;
 
 public class TreeNode {
 

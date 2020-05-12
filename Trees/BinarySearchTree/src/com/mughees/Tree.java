@@ -1,4 +1,4 @@
-package com.mughees;
+package academy.learnprogramming.binarysearchtrees;
 
 public class Tree {
 
@@ -19,6 +19,34 @@ public class Tree {
         }
 
         return null;
+    }
+
+    public void delete(int value) {
+        root = delete(root, value);
+    }
+
+    private TreeNode delete(TreeNode subtreeRoot, int value) {
+        if (subtreeRoot == null) {
+            return subtreeRoot;
+        }
+
+        if (value < subtreeRoot.getData()) {
+            subtreeRoot.setLeftChild(delete(subtreeRoot.getLeftChild(), value));
+        }
+        else if (value > subtreeRoot.getData()) {
+            subtreeRoot.setRightChild(delete(subtreeRoot.getRightChild(), value));
+        }
+        else {
+            // Cases 1 and 2: node to delete has 0 or 1 child(ren)
+            if (subtreeRoot.getLeftChild() == null) {
+                return subtreeRoot.getRightChild();
+            }
+            else if (subtreeRoot.getRightChild() == null) {
+                return subtreeRoot.getLeftChild();
+            }
+        }
+
+        return subtreeRoot;
     }
 
     public int min() {
