@@ -91,7 +91,6 @@ public class TreeNode {
         }
     }
 
-
     public int getData() {
         return data;
     }
