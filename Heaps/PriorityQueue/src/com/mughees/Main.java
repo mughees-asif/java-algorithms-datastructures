@@ -5,6 +5,9 @@ import java.util.PriorityQueue;
 public class Main {
 
     public static void main(String[] args) {
+
+        // PriorityQueue is MinHeap for the JDK; minimum element at
+        // the root and maximum at the leaf
         PriorityQueue<Integer> pq = new PriorityQueue<Integer>();
 
         pq.add(25);
