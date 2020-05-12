@@ -71,3 +71,8 @@
 | ------------- | ------------- |
 |  BinarySearchTree (insertion, in-order traversal, deletion) | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Trees/BinarySearchTree/src/com/mughees/Tree.java)  |
 |  BinarySearchTree (per-order traversal) | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Trees/Challenge1/src/com/mughees/Tree.java)  |
+
+## 7. Heaps
+|  Name  |  Code  |
+| ------------- | ------------- |
+|  Heaps | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Trees/BinarySearchTree/src/com/mughees/Tree.java)  |
