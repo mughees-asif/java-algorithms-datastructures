@@ -75,4 +75,4 @@
 ## 7. Heaps
 |  Name  |  Code  |
 | ------------- | ------------- |
-|  Heaps | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Trees/BinarySearchTree/src/com/mughees/Tree.java)  |
+|  Heaps | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Heaps/src/com/mughees/Main.java)  |
