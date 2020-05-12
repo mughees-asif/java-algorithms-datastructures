@@ -61,7 +61,12 @@
 ## 5. Hashtables
 |  Name  |  Code  |
 | ------------- | ------------- |
-|  Hash Tables - Arrays | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/HashTables/HashTablesArrays/src/com/mughees/SimpleHashtable.java)  |
-|  Hash Tables - Linear Probing | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/HashTables/HashTables-LinearProbing/src/com/mughees/SimpleHashtable.java)  |
-|  Hash Tables - Chaining | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/HashTables/HashTables-Chaining/src/com/mughees/ChainedHashtable.java)  |
+|  Hashtables - Arrays | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/HashTables/HashTablesArrays/src/com/mughees/SimpleHashtable.java)  |
+|  Hashtables - Linear Probing | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/HashTables/HashTables-LinearProbing/src/com/mughees/SimpleHashtable.java)  |
+|  Hashtables - Chaining | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/HashTables/HashTables-Chaining/src/com/mughees/ChainedHashtable.java)  |
 |  HashtablesJDK | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/HashTables/HashtablesJDK/src/com/mughees/Main.java)  |
+
+## 6. Trees
+|  Name  |  Code  |
+| ------------- | ------------- |
+|  BinarySearchTree | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Trees/BinarySearchTree/src/com/mughees/Main.java)  |

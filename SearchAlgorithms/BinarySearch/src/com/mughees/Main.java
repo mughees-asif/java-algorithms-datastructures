@@ -3,7 +3,6 @@ package com.mughees;
 public class Main {
 
     public static void main(String[] args) {
-
         int[] arr = new int[] {-22, -15, 1, 7, 20, 35, 55};
         System.out.println(iterativeBinarySearch(arr, 35));
         System.out.println("==================================");
