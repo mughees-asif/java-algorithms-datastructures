@@ -47,7 +47,7 @@
 ## 3. Stacks
 |  Name  |  Code  |
 | ------------- | ------------- |
-|  Stacks - Arrays | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Stacks/StacksArrays/src/com/mughees/ArrayStack.java)  |
+|  Stacks - Arrays | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Stacks/StacksArray/src/com/mughees/ArrayStack.java)  |
 |  Stacks - LinkedList | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Stacks/StacksLinkedList/src/com/mughees/LinkedStack.java)  |
 |  Stacks - Palindrome check | [:writing_hand:](https://github.com/mughees-asif/java-algorithms-datastructures/blob/master/Stacks/StacksChallenge/src/com/mughees/Main.java)  |
 
